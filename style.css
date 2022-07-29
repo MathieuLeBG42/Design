@@ -20,3 +20,11 @@ main {
     align-items: flex-start;
     justify-content: flex-start;
 }
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 450px;
+    height: 350px
+}
