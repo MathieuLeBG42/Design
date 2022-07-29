@@ -19,6 +19,8 @@ main {
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: flex-start;
+    width: auto;
+    height: 1600px;
 }
 section {
     display: flex;
@@ -26,7 +28,8 @@ section {
     align-items: flex-start;
     justify-content: flex-start;
     background: linear-gradient(90deg, var(--med), var(--max));
+    border-radius: 20px;
     box-shadow: 2px 2px 8px var(--shadow);
     width: 450px;
-    height: 350px
+    height: 300px
 }
