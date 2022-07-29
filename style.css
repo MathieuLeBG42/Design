@@ -5,7 +5,18 @@
     --med: #8A84E2;
     --fren: #84AFE6;
     --aero: #79BEEE;
+    --shadow: rgba(0, 0, 0, 0.6)
 }
 body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--baby);
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
