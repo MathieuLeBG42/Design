@@ -1,1 +1,11 @@
 @import url('reset.css');
+:root {
+    --baby: #B7D3F2;
+    --max: #AFAFDC;
+    --med: #8A84E2;
+    --fren: #84AFE6;
+    --aero: #79BEEE;
+}
+body {
+    background-color: var(--baby);
+}
